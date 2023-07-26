@@ -1,0 +1,162 @@
+09:02:00 From Prof. Claudio.Z to Everyone:
+	https://docs.google.com/spreadsheets/d/1YHuE0SkuqVqI6PMUvVHRkD13Jss4gznv/edit?usp=sharing&ouid=113354752149299759830&rtpof=true&sd=true
+09:02:06 From Prof. Claudio.Z to Everyone:
+	Hola a todos
+09:02:22 From Prof. Claudio.Z to Everyone:
+	En 5 damos inicio al curso
+09:05:38 From Prof. Claudio.Z to Everyone:
+	Pueden ir completando el documento
+09:05:38 From Prof. Claudio.Z to Everyone:
+	https://docs.google.com/spreadsheets/d/1YHuE0SkuqVqI6PMUvVHRkD13Jss4gznv/edit?usp=sharing&ouid=113354752149299759830&rtpof=true&sd=true
+09:11:54 From Prof. Claudio.Z to Everyone:
+	https://www.eclipse.org/downloads/packages/
+09:13:38 From Prof. Claudio.Z to Everyone:
+	https://www.oracle.com/java/technologies/downloads/
+09:13:46 From Prof. Claudio.Z to Everyone:
+	Java JDK 17
+09:13:52 From Prof. Claudio.Z to Everyone:
+	Eclipse EE
+09:14:10 From Prof. Claudio.Z to Everyone:
+	https://dev.mysql.com/downloads/installer/
+09:14:44 From Prof. Claudio.Z to Everyone:
+	Mysql Server
+09:15:00 From Prof. Claudio.Z to Everyone:
+	Mysql Workbench
+09:15:02 From Javier Cuello to Prof. Claudio.Z(Direct Message):
+	Profe yo no puedo entrar a la plataforma de la utn.
+09:15:32 From Javier Cuello to Prof. Claudio.Z(Direct Message):
+	javicuello9@gmail.com
+09:15:57 From María Morales to Everyone:
+	Hola a todos!! Buen día! Recien puedo incorporarme. Dijo algo más aparte de los requisitos que tenemos que tener?
+09:16:21 From Gustavo Toscano to Everyone:
+	profe una consulta,habria problema si utilizo java 8?
+09:16:38 From Prof. Claudio.Z to Everyone:
+	https://docs.google.com/spreadsheets/d/1YHuE0SkuqVqI6PMUvVHRkD13Jss4gznv/edit?usp=sharing&ouid=113354752149299759830&rtpof=true&sd=true
+09:16:50 From Magdalena Caprioglio to Everyone:
+	Buen día. No puedo poner presente
+09:16:54 From María Morales to Everyone:
+	Ah bien. Gracias!!
+09:17:20 From Gustavo Toscano to Everyone:
+	ok profe gracias
+09:19:24 From Javier Cuello to Prof. Claudio.Z(Direct Message):
+	Ami tmb profe. Recien pude entrar aca.
+09:19:26 From Javier Cuello to Prof. Claudio.Z(Direct Message):
+	Gracias
+09:20:44 From Javier Cuello to Prof. Claudio.Z(Direct Message):
+	Tmb me pasa lo mismo profe
+09:21:38 From Prof. Claudio.Z to Everyone:
+	Pasos
+09:21:51 From Prof. Claudio.Z to Everyone:
+	1 - Instalar java JDK 11 o JDK 17
+09:21:52 From Prof. Claudio.Z to Everyone:
+	https://www.oracle.com/java/technologies/downloads/
+09:22:24 From Prof. Claudio.Z to Everyone:
+	https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe
+09:22:38 From Prof. Claudio.Z to Everyone:
+	https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.msi
+09:23:09 From Prof. Claudio.Z to Everyone:
+	2 - Instalar eclipse EE
+09:23:14 From Prof. Claudio.Z to Everyone:
+	https://www.eclipse.org/downloads/packages/
+09:23:21 From Prof. Claudio.Z to Everyone:
+	Eclipse IDE for Enterprise Java and Web Developers
+09:23:48 From Prof. Claudio.Z to Everyone:
+	https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2023-06/R/eclipse-jee-2023-06-R-win32-x86_64.zip
+09:24:46 From Prof. Claudio.Z to Everyone:
+	3 - Instalar Mysql Server y WorkBench
+09:24:47 From Prof. Claudio.Z to Everyone:
+	https://dev.mysql.com/downloads/installer/
+09:31:58 From Prof. Claudio.Z to Everyone:
+	https://www.amazon.com/-/es/Madhusudhan-Konda-ebook/dp/B00KSMU3JS/ref=sr_1_8?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15GPNQIKCLR99&keywords=hibernate&qid=1690374691&sprefix=hibernate%2Caps%2C211&sr=8-8
+09:32:11 From Prof. Claudio.Z to Everyone:
+	https://www.amazon.com/-/es/Catalin-Tudose/dp/1617299189/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=163GMN1YA4LS3&keywords=hibernate+jpa&qid=1690374655&sprefix=hibernate+jpa%2Caps%2C275&sr=8-1
+09:32:18 From Prof. Claudio.Z to Everyone:
+	https://www.amazon.com/-/es/Paul-Fisher-ebook/dp/B01HUOWKZ6/ref=sr_1_14?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=163GMN1YA4LS3&keywords=hibernate+jpa&qid=1690374655&sprefix=hibernate+jpa%2Caps%2C275&sr=8-14
+09:32:23 From Prof. Claudio.Z to Everyone:
+	https://www.amazon.com/-/es/Mike-Keith-ebook/dp/B079JJYZ3V/ref=sr_1_17?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=163GMN1YA4LS3&keywords=hibernate+jpa&qid=1690374655&sprefix=hibernate+jpa%2Caps%2C275&sr=8-17
+09:32:41 From Prof. Claudio.Z to Everyone:
+	Hibernate 5.X
+09:34:21 From Prof. Claudio.Z to Everyone:
+	https://riptutorial.com/Download/hibernate-es.pdf
+09:35:13 From Prof. Claudio.Z to Everyone:
+	http://www.jtech.ua.es/j2ee/2009-2010/restringido/jpa/wholesite.pdf
+09:35:53 From Camilo Sanchez to Everyone:
+	Todo ok para mi
+09:37:37 From Prof. Claudio.Z to Everyone:
+	https://www.amazon.com/-/es/Felipe-Gutierrez-ebook/dp/B07G2NSBCS/ref=sr_1_9?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=OZGJDS3D9JVQ&keywords=spring+boot&qid=1690374963&sprefix=spring+boot%2Caps%2C1087&sr=8-9
+09:37:42 From Prof. Claudio.Z to Everyone:
+	https://www.amazon.com/-/es/K-Siva-Prasad-Reddy-ebook/dp/B0BM761KNM/ref=sr_1_35?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=OZGJDS3D9JVQ&keywords=spring+boot&qid=1690374963&sprefix=spring+boot%2Caps%2C1087&sr=8-35
+09:38:40 From Prof. Claudio.Z to Everyone:
+	https://riptutorial.com/Download/spring-boot-es.pdf
+09:41:28 From Prof. Claudio.Z to Everyone:
+	https://www.arquitecturajava.com/que-es-spring-boot/
+09:46:28 From Prof. Claudio.Z to Everyone:
+	https://docs.jboss.org/hibernate/orm/3.5/reference/es-ES/html/index.html
+10:02:51 From Prof. Claudio.Z to Everyone:
+	https://mvnrepository.com/
+10:03:18 From Prof. Claudio.Z to Everyone:
+	<dependency>
+	            <groupId>org.hibernate</groupId>
+	            <artifactId>hibernate-core</artifactId>
+	            <version>5.3.7.Final</version>
+	        </dependency>
+10:05:36 From Prof. Claudio.Z to Everyone:
+	<dependency>
+	   <groupId>com.mysql</groupId>
+	   <artifactId>mysql-connector-j</artifactId>
+	   <version>8.0.33</version>
+	  </dependency>
+10:06:07 From Prof. Claudio.Z to Everyone:
+	<!-- JAXB API -->
+	     <dependency>
+	         <groupId>javax.xml.bind</groupId>
+	         <artifactId>jaxb-api</artifactId>
+	         <version>2.3.1</version>
+	     </dependency>
+	 
+	     <!-- JAXB RI -->
+	     <dependency>
+	         <groupId>com.sun.xml.bind</groupId>
+	         <artifactId>jaxb-impl</artifactId>
+	         <version>2.3.4</version>
+	     </dependency>
+10:06:51 From Prof. Claudio.Z to Everyone:
+	<dependencies>
+	  <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+	  <dependency>
+	   <groupId>com.mysql</groupId>
+	   <artifactId>mysql-connector-j</artifactId>
+	   <version>8.0.33</version>
+	  </dependency>
+	
+	  <dependency>
+	   <groupId>org.hibernate</groupId>
+	   <artifactId>hibernate-core</artifactId>
+	   <version>5.3.7.Final</version>
+	  </dependency>
+	
+	     <!-- JAXB API -->
+	     <dependency>
+	         <groupId>javax.xml.bind</groupId>
+	         <artifactId>jaxb-api</artifactId>
+	         <version>2.3.1</version>
+	     </dependency>
+	 
+	     <!-- JAXB RI -->
+	     <dependency>
+	         <groupId>com.sun.xml.bind</groupId>
+	         <artifactId>jaxb-impl</artifactId>
+	         <version>2.3.4</version>
+	     </dependency>
+	
+	 </dependencies>
+10:07:44 From Gustavo Toscano to Everyone:
+	aaaaaaa
+10:09:35 From Prof. Claudio.Z to Everyone:
+	https://github.com/claudiozam/java-intermedio
+10:13:33 From Prof. Claudio.Z to Everyone:
+	https://github.com/claudiozam/java-intermedio
+10:14:30 From Prof. Claudio.Z to Everyone:
+	https://github.com/claudiozam/java-intermedio
+10:21:04 From María Morales to Everyone:
+	Profe, disculpe. Antes de terminar la clase podría enviar de nuevo los links que mandó cuando empezamos? Porque por problemas técnicos en la compu, la tuve que dejar de usar y ahora estoy desde el celular y se me borró todo el chat
