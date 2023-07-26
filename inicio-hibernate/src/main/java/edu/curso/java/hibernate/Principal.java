@@ -7,7 +7,8 @@ public class Principal {
 	public static void main(String[] args) {
 		
 		
-		Session session = null; //TODO: FALTA CONFIGURAR HIBERNATE!!!!!
+		Session session = HibernateUtil.getSessionFactory().openSession();
+
 		Transaction transaction = session.beginTransaction(); //INIO DE LA TRANSACTION
 		
 		Producto producto1 = new Producto();
@@ -23,6 +24,8 @@ public class Principal {
 		// transaction.rollback(); // PUEDO BORRAR LOS CAMBIOS SI NO LOS QUIERO!!!!!
 		
 		session.close(); //SIEMPRE TENGO QUE CERRAR LA SESSION DESPUES DE TRABAJAR!!!!!
+		
+		HibernateUtil.close();
 
 	}
 
