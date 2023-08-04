@@ -123,7 +123,26 @@ public class Principal {
 			System.out.println("Fecha alta: " + reclamo.getFechaDeAlta());		
 		}
 
+		System.out.println("**************************************");		
 		
+		Query<Cliente> clienteQuery4 = session.createQuery("select c from Cliente as c inner join c.reclamos as r where r.estadoReclamo.nombre = 'Nuevo' order by r.fechaDeAlta", Cliente.class);
+		List<Cliente> clientes4 = clienteQuery4.list();
+		for (Cliente cliente : clientes4) {
+			System.out.println("Cliente: " + cliente.getId() + " - Nombre: " + cliente.getNombre());
+		}
+
+		System.out.println("**************************************");		
+
+		@SuppressWarnings("unchecked")
+		NativeQuery<Cliente> consultaSQLClientesConReclamos = session.createSQLQuery("select c.* from Cliente c inner join Cliente_Reclamo cr on c.id = cr.Cliente_id " + 
+				" inner join Reclamo r on cr.reclamos_id= r.id " + 
+				" cross join EstadoReclamo e where r.estadoReclamo_id = e.id and e.nombre='Nuevo'");
+		consultaSQLClientesConReclamos.addEntity(Cliente.class);
+		List<Cliente> clientes5 = consultaSQLClientesConReclamos.list();
+
+		for (Cliente cliente : clientes5) {
+			System.out.println("Cliente: " + cliente.getId() + " - Nombre: " + cliente.getNombre());
+		}
 		
 		transaction.commit(); 
 		session.close(); 
@@ -132,3 +151,4 @@ public class Principal {
 	}
 
 }
+

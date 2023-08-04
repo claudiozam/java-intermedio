@@ -11,7 +11,6 @@ public class PrincipalConConsultaConParametros {
 
 	public static void main(String[] args) {
 		
-		
 		Session session = HibernateUtil.getSessionFactory().openSession();
 
 		Transaction transaction = session.beginTransaction(); //INIO DE LA TRANSACTION
