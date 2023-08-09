@@ -20,8 +20,8 @@ public interface ClientesRepository extends CrudRepository<Cliente, Long> {
 	@Query(value = "select c from Cliente c where c.nombre = :nombre")
 	public List<Cliente> buscarClientesPorNombre(@Param("nombre") String nombre);
 
-	@Query(value = "select c from Cliente c where c.nombre = '%?1%'")
-	public List<Cliente> buscarClientesPorNombreLike(String nombre);
+	@Query(value = "select c from Cliente c where c.nombre like %:nombre%")
+	public List<Cliente> buscarClientesPorNombreLike(@Param("nombre") String nombre);
 
 	
 }

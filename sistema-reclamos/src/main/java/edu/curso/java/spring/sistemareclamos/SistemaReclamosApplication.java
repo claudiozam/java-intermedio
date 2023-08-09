@@ -24,13 +24,21 @@ public class SistemaReclamosApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 	
 		Cliente cliente1 = new Cliente();
-		cliente1.setNombre("Ejemplo cliente 1");
+		cliente1.setNombre("pedro lopez");
 		
 		clientesRepository.save(cliente1);
 		System.out.println("Id cliente generado: " + cliente1.getId());
 		
 		List<Cliente> clientes = clientesRepository.buscarTodosLosClientes();
 		for (Cliente c : clientes) {
+			System.out.println(c.getId() + " " + c.getNombre());
+		}
+		
+		System.out.println("*********************");
+		
+		List<Cliente> clientesPorNombreLike = clientesRepository.buscarClientesPorNombreLike("lope");
+		
+		for (Cliente c : clientesPorNombreLike) {
 			System.out.println(c.getId() + " " + c.getNombre());
 		}
 		
