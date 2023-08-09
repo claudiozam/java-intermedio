@@ -13,6 +13,10 @@ import java.util.*;
 public interface ClientesRepository extends CrudRepository<Cliente, Long> {
 
 	
+	@Query(value = "select c from Cliente c")
+	public List<Cliente> buscarTodosLosClientes();
+
+	
 	@Query(value = "select c from Cliente c where c.nombre = :nombre")
 	public List<Cliente> buscarClientesPorNombre(@Param("nombre") String nombre);
 
