@@ -1,0 +1,16 @@
+body {
+	font-size: 15px;
+	color: green;
+}
+
+a {
+	color: blue;	
+}
+
+.texto-negrita {
+	font-weight: bold;
+}
+
+#elemento-unico {
+	background-color: brown;
+}
