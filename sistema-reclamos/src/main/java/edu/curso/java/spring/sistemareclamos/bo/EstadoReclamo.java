@@ -12,6 +12,18 @@ public class EstadoReclamo {
 	private Long id;
 	
 	private String nombre;
+	
+	public EstadoReclamo() {}
+
+	public EstadoReclamo(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public EstadoReclamo(Long id, String nombre) {
+		this.id = id;
+		this.nombre = nombre;
+	}
+	
 
 	public Long getId() {
 		return id;
