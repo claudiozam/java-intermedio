@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import edu.curso.java.spring.sistemareclamos.bo.EstadoReclamo;
@@ -17,12 +18,7 @@ public class HolaMundoController {
 	@RequestMapping("/saludar")	
 	public String saludar(Model model) {
 		model.addAttribute("nombre", "Claudio");
-		
-		EstadoReclamo estadoReclamo = new EstadoReclamo();
-		estadoReclamo.setId(1234L);
-		estadoReclamo.setNombre("Ejemplo Estado");
-		model.addAttribute("estadoReclamo", estadoReclamo);
-		
+				
 		List<EstadoReclamo> estadosReclamo = new ArrayList<EstadoReclamo>();
 		estadosReclamo.add(new EstadoReclamo(1L, "Estado 1"));
 		estadosReclamo.add(new EstadoReclamo(2L, "Estado 2"));
@@ -32,4 +28,14 @@ public class HolaMundoController {
 
 		return "/holamundo/saludar"; //EN ESTA CARPETA VAMOS A TENER UNA PAGINA EN HTML LLAMADA saludar.jsp
 	}
+	
+	@RequestMapping("/ver/{id}")	
+	public String ver(Model model, @PathVariable Long id) {
+		EstadoReclamo estadoReclamo = new EstadoReclamo();
+		estadoReclamo.setId(id);
+		estadoReclamo.setNombre("Ejemplo Estado");
+		model.addAttribute("estadoReclamo", estadoReclamo);
+		return "/holamundo/ver";
+	}
+	
 }
