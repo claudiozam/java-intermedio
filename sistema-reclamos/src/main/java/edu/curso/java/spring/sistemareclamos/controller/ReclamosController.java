@@ -36,6 +36,12 @@ public class ReclamosController {
 		return "/reclamos/ver";
 	}
 
+	@RequestMapping("/borrar/{id}")
+	public String borrar(Model model, @PathVariable Long id) {
+		reclamosService.borrarReclamo(id);
+		return "redirect:/reclamos/listar"; //VUELVO A LLAMAR AL METODO LISTAR DESPUES DE BORRAR ESO ES EL REDIRECT!!!!
+	}
+
 	
 	
 }

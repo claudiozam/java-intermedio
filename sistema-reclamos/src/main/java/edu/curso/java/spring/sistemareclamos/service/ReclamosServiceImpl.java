@@ -22,7 +22,12 @@ public class ReclamosServiceImpl implements ReclamosService {
 	@Autowired
 	private EstadosReclamoRepository estadosReclamoRepository;
 	
-	
+
+	@Override
+	public void borrarReclamo(Long id) {
+		reclamosRepository.deleteById(id);
+	}
+
 	@Override
 	public Long crearNuevoReclamo(Reclamo reclamo) {
 		reclamo.setFechaDeAlta(new Date());
@@ -40,5 +45,7 @@ public class ReclamosServiceImpl implements ReclamosService {
 	public List<Reclamo> recuperarTodoLosReclamos() {
 		return reclamosRepository.buscarTodosLosReclamos();
 	}
+
 	
 }
+

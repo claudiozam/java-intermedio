@@ -31,6 +31,8 @@
 			<td>${reclamo.estadoReclamo.nombre}</td>
 			<td>
 				<a href="/reclamos/ver/${reclamo.id}">Ver</a>
+				&nbsp;
+				<a href="/reclamos/borrar/${reclamo.id}">Borrar</a>
 			</td>
 		</tr>
 		</c:forEach>

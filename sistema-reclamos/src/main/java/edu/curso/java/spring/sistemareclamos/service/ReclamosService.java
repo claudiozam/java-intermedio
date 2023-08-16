@@ -11,5 +11,7 @@ public interface ReclamosService {
 	Reclamo recuperarReclamoPorId(Long id);
 
 	List<Reclamo> recuperarTodoLosReclamos();
+	
+	void borrarReclamo(Long id);
 
 }
