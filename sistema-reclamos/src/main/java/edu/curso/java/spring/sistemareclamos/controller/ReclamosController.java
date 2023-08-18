@@ -64,5 +64,18 @@ public class ReclamosController {
 		return  "redirect:/reclamos/listar";
 	}
 
+	@RequestMapping("/editar/{id}")
+	public String editar(Model model, @PathVariable Long id) {
+		Reclamo reclamo = reclamosService.recuperarReclamoPorId(id);
+		FormReclamo formReclamo = new FormReclamo();
+		formReclamo.setId(reclamo.getId());
+		formReclamo.setTitulo(reclamo.getTitulo());
+		formReclamo.setDescripcion(reclamo.getDescripcion());
+		model.addAttribute("formReclamo", formReclamo);
+		return "/reclamos/form";
+	}
+	
+	
+	
 	
 }
