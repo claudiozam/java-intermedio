@@ -14,4 +14,6 @@ public interface ReclamosService {
 	
 	void borrarReclamo(Long id);
 
+	void actualizarReclamo(Reclamo reclamo);
+
 }

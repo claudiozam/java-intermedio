@@ -16,8 +16,14 @@
 
 	<h1>Form reclamo</h1>
 
-	<form:form action="/reclamos/guardarnuevo" method="post" modelAttribute="formReclamo">
+	<form:form action="/reclamos/guardar" method="post" modelAttribute="formReclamo">
+
 	<table>
+		<tr>
+			<td><b>Id</b></td>
+			<td><form:input path="id" readonly="readonly"/></td>
+		</tr>
+
 		<tr>
 			<td><b>Titulo</b></td>
 			<td><form:input path="titulo"/></td>

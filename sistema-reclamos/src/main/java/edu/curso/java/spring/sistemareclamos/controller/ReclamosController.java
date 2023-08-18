@@ -53,7 +53,7 @@ public class ReclamosController {
 	}
 	
 
-	@RequestMapping(value = "/guardarnuevo", method = RequestMethod.POST)
+/*	@RequestMapping(value = "/guardarnuevo", method = RequestMethod.POST)
 	public String guardarNuevo(Model model, FormReclamo formReclamo) {
 		Reclamo reclamo = new Reclamo();
 		
@@ -62,7 +62,7 @@ public class ReclamosController {
 		reclamosService.crearNuevoReclamo(reclamo);
 		
 		return  "redirect:/reclamos/listar";
-	}
+	}*/
 
 	@RequestMapping("/editar/{id}")
 	public String editar(Model model, @PathVariable Long id) {
@@ -74,8 +74,30 @@ public class ReclamosController {
 		model.addAttribute("formReclamo", formReclamo);
 		return "/reclamos/form";
 	}
-	
-	
-	
+
+	@RequestMapping(value = "/guardar", method = RequestMethod.POST)
+	public String guardar(Model model, FormReclamo formReclamo) {
+		
+		Long idActual = formReclamo.getId();
+		Reclamo reclamo = null;
+		
+		if(idActual != null) {
+			reclamo = reclamosService.recuperarReclamoPorId(idActual);
+		} else {
+			reclamo = new Reclamo();
+		}
+		
+		reclamo.setTitulo(formReclamo.getTitulo());
+		reclamo.setDescripcion(formReclamo.getDescripcion());
+		
+		if(idActual != null) {
+			reclamosService.actualizarReclamo(reclamo);
+		} else {
+			reclamosService.crearNuevoReclamo(reclamo);
+		}
+		
+		return  "redirect:/reclamos/listar";
+	}
+
 	
 }

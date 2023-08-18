@@ -46,6 +46,11 @@ public class ReclamosServiceImpl implements ReclamosService {
 		return reclamosRepository.buscarTodosLosReclamos();
 	}
 
+	@Override
+	public void actualizarReclamo(Reclamo reclamo) {
+		reclamosRepository.save(reclamo);
+	}
+
 	
 }
 

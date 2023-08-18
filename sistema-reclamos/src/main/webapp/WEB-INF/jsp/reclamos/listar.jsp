@@ -36,6 +36,8 @@
 				<td>
 					<a class="btn btn-primary" href="/reclamos/ver/${reclamo.id}">Ver</a>
 					&nbsp;
+					<a class="btn btn-info" href="/reclamos/editar/${reclamo.id}">Editar</a>
+					&nbsp;
 					<a class="btn btn-danger" href="/reclamos/borrar/${reclamo.id}">Borrar</a>
 				</td>
 			</tr>
