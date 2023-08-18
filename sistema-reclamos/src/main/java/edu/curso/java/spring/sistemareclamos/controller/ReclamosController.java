@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import edu.curso.java.spring.sistemareclamos.bo.Reclamo;
+import edu.curso.java.spring.sistemareclamos.controller.forms.FormReclamo;
 import edu.curso.java.spring.sistemareclamos.repository.ReclamosRepository;
 import edu.curso.java.spring.sistemareclamos.service.ReclamosService;
 

@@ -1,4 +1,4 @@
-package edu.curso.java.spring.sistemareclamos.controller;
+package edu.curso.java.spring.sistemareclamos.controller.forms;
 
 public class FormReclamo {
 
