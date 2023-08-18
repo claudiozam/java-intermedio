@@ -21,7 +21,7 @@
 	<table>
 		<tr>
 			<td><b>Id</b></td>
-			<td><form:input path="id" readonly="readonly"/></td>
+			<td><form:input path="id" readonly="true"/></td>
 		</tr>
 
 		<tr>
