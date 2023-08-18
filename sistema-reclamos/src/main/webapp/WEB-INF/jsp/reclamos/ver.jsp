@@ -9,7 +9,8 @@
 	<link href="../../css/bootstrap.css" rel="stylesheet" />
 </head>
 <body>
-		<jsp:include page="../template_superior.jsp"></jsp:include>
+	
+	<jsp:include page="../template_superior.jsp"></jsp:include>
 
 	<h1>Ver reclamo</h1>
 	<table>
