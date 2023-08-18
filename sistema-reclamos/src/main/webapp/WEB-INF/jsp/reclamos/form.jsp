@@ -26,7 +26,13 @@
 			<td><b>Descripcion</b></td>
 			<td><form:textarea rows="5" cols="10" path="descripcion"/> </td>
 		</tr>		
+		<tr>
+			<td><button class="btn btn-primary" type="submit">Guardar</button></td>
+		</tr>
 	</table>
+	
+	
+	
 	</form:form>
 	<jsp:include page="../template_inferior.jsp"></jsp:include>
 	
