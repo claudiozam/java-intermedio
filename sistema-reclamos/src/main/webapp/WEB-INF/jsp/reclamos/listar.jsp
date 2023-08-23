@@ -16,7 +16,7 @@
 
 		<jsp:include page="../template_superior.jsp"></jsp:include>
 
-		<h1>Listado de reclamos....</h1>
+		<h1>${titulo}</h1>
 	
 	
 		<table class="table table-bordered">

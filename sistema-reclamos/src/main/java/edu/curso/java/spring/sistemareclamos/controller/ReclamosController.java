@@ -24,6 +24,7 @@ public class ReclamosController {
 	// URL FINAL => /reclamos/listar
 	@RequestMapping("/listar")
 	public String listar(Model model) {
+		model.addAttribute("titulo", "Listado de los reclamos en el sistema");
 		List<Reclamo> reclamos = reclamosService.recuperarTodoLosReclamos();
 		model.addAttribute("reclamos", reclamos);
 		return "/reclamos/listar";
@@ -45,6 +46,7 @@ public class ReclamosController {
 	}
 	
 	
+	// URL FINAL => /reclamos/nuevo
 	@RequestMapping("/nuevo")
 	public String nuevo(Model model) {
 		FormReclamo formReclamo = new FormReclamo();
